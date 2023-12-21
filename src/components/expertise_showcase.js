@@ -2,7 +2,7 @@ import React from "react";
 import ReactLogo from "../images/react-logo.png";
 import FlutterLogo from "../images/flutter-logo.png";
 import DjangoLogo from "../images/Django-Logo.png";
-
+import next from "../images/next-js.png";
 class Expertise {
   constructor(title, description, logo) {
     this.title = title;
@@ -27,6 +27,8 @@ const expertise_list = [
     "Django become the framework of my choice for backend development cause of it has batteries included and Django Rest Framework is also very easy to use.",
     DjangoLogo
   ),
+
+  new Expertise("Next Js", "It is just amazing and I love it.", next),
 ];
 
 function ExpertiseCard(props) {
