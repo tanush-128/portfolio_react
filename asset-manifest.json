@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.b8476e0f.css",
-    "main.js": "/portfolio_react/static/js/main.f83d4ccf.js",
+    "main.js": "/portfolio_react/static/js/main.ad1e2b5d.js",
     "static/media/weather_app.png": "/portfolio_react/static/media/weather_app.fb5e81a747df7f0b4f93.png",
     "static/media/person.png": "/portfolio_react/static/media/person.fa4e61e97c0ec402bd1c.png",
     "static/media/person-half-image.png": "/portfolio_react/static/media/person-half-image.fc963ec77036a07798b8.png",
     "static/media/flipkart_clone.png": "/portfolio_react/static/media/flipkart_clone.dc8d44fece0c9da5f21e.png",
     "static/media/Student Welfare Group App.png": "/portfolio_react/static/media/Student Welfare Group App.879ed0bad96581618939.png",
+    "static/media/spotify_clone.jpeg": "/portfolio_react/static/media/spotify_clone.bd9d78dbbac1ebde4d90.jpeg",
     "static/media/react-logo.png": "/portfolio_react/static/media/react-logo.fb6ab0285f3f79e0bba5.png",
+    "static/media/html.png": "/portfolio_react/static/media/html.5e8ee55d9b13cd277f80.png",
+    "static/media/chat.png": "/portfolio_react/static/media/chat.2d777bdedef414717a28.png",
     "static/media/flutter-logo.png": "/portfolio_react/static/media/flutter-logo.294a953425109a8f1aad.png",
     "static/media/Django-Logo.png": "/portfolio_react/static/media/Django-Logo.c7f0305c2eb0cd5d70ef.png",
     "static/media/signature.png": "/portfolio_react/static/media/signature.826fe1573d08607c8b06.png",
     "index.html": "/portfolio_react/index.html",
     "main.b8476e0f.css.map": "/portfolio_react/static/css/main.b8476e0f.css.map",
-    "main.f83d4ccf.js.map": "/portfolio_react/static/js/main.f83d4ccf.js.map"
+    "main.ad1e2b5d.js.map": "/portfolio_react/static/js/main.ad1e2b5d.js.map"
   },
   "entrypoints": [
     "static/css/main.b8476e0f.css",
-    "static/js/main.f83d4ccf.js"
+    "static/js/main.ad1e2b5d.js"
   ]
 }
