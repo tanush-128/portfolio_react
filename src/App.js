@@ -6,8 +6,10 @@ import Expertise from "./sections/expertise";
 import Resume from "./sections/resume";
 import Projects from "./sections/projects";
 import Contact from "./sections/contact";
+import { MaxWidthWrapper } from "./components/maxWidthWrapper";
 function App() {
   return (
+   
     <div className="App">
       <Navbar />
       <Main />
@@ -16,7 +18,8 @@ function App() {
       <Resume />
       <Projects />
       <Contact />
-   </div>
+      </div>
+   
   );
 }
 

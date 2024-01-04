@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -38,9 +39,9 @@
 }
 
 :root {
-  --red: #ff0239;
-  --bg: #edf1fd;
-  --main: #3f4357;
+  --red: #2563EB;
+  --bg: white;
+  --main: black;
 }
 
 body {
@@ -50,7 +51,8 @@ body {
 }
 
 .red {
-  color: var(--red);
+  /* color: var(--red); */
+  color: #2563EB;
 }
 
 .icon {
@@ -62,13 +64,13 @@ body {
   justify-content: space-between;
   padding: 0px 64px;
   align-items: baseline;
+  max-width: 90%;
+  margin: 0px auto;
+  padding: 16px;
   /* height: 80px; */
 }
 
-.navbar-item {
-  flex: 1;
-  font-weight: 500;
-}
+
 
 .navbar-item a:hover {
   color: var(--red);
@@ -79,9 +81,24 @@ body {
   text-decoration: none;
   color: var(--main);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
+}
+#name {
+  /* animation: name 3s ease-in-out infinite alternate; */
+  color: var(--red);
+  font-size: 24px;
+  
+  max-width: max-content;
+  font-weight: 700;
 }
 
+#navbar-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+
+}
 @keyframes name {
   0% {
     transform: translateX(-80px);
@@ -136,14 +153,7 @@ body {
   }
 }
 
-#name {
-  /* animation: name 3s ease-in-out infinite alternate; */
-  color: var(--red);
-  font-size: 4rem;
-  flex-grow: 5;
 
-  font-weight: 900;
-}
 
 @media screen and (max-width: 400px) {
   #name div {
@@ -198,10 +208,7 @@ body {
   justify-content: flex-end;
 }
 
-#navbar-links {
-  display: flex;
-  flex: 5;
-}
+
 
 @media screen and (max-width: 1200px) {
   .navbar {
@@ -860,7 +867,7 @@ ul {
 }
 
 #form {
-  background-color: #f8f9fe;
+  background-color: #F1F5F9;
   padding: 2rem;
   /* margin: 32px 16px; */
   display: flex;
@@ -900,7 +907,11 @@ ul {
 
 #blue-bg {
   background-color: #dbe1f1;
-  width: 100%;
+  width: 100svw;
+  margin: 0px calc(-50vw + 50%);
+  overflow: hidden;
+  max-width: 100svw;
+  /* margin: 0px -10%; */
   height: 100%;
   position: absolute;
   z-index: -1;

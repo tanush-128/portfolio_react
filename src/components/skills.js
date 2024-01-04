@@ -23,7 +23,7 @@ export default function Skills() {
         <Skill name="React" level={90} />
         <Skill name="Flutter" level={70} />
         <Skill name="Django" level={55} />
-        <Skill name="Python" level={80} />
+        <Skill name="Next.js" level={80} />
       </div>
     </section>
   );

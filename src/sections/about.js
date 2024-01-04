@@ -1,9 +1,11 @@
 import img2 from "../images//person-half-image.png";
 import signature from "../images/signature.png";
 import Skills from "../components/skills";
+import { MaxWidthWrapper } from "../components/maxWidthWrapper";
 export default function About() {
-    return (
-        <section id="about">
+  return (
+    <section id="about">
+      <MaxWidthWrapper>
         <div style={{ display: "flex", flexWrap: "wrap" }}>
           <div id="about-left">
             <img src={img2} />
@@ -50,5 +52,7 @@ export default function About() {
         </div>
 
         <Skills />
-      </section>
-    )}
+      </MaxWidthWrapper>
+    </section>
+  );
+}

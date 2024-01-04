@@ -1,9 +1,10 @@
 import Kcard from "../components/kcard";
-
+import { MaxWidthWrapper } from "../components/maxWidthWrapper";
 
 export default function Resume() {
-    return(
-        <section id="resume">
+  return (
+    <section id="resume">
+        <MaxWidthWrapper>
         <div id="title">Resume</div>
         <div id="description">
           From A small town named Adoni to Hydrebad for JEE coaching and now at
@@ -57,14 +58,21 @@ export default function Resume() {
                 institution="E-cell IIT Kharagpur"
               /> */}
               <Kcard
-                time="June 2021 - Present"
+                time="June 2023 - Present"
                 title="App Developer"
                 description="I am currently working as an app developer at Student Welfare Group, Technology Students Gymkhana, IIT Kharagpur. I am working on the SWG app which is used by the students of IIT Kharagpur. I am working on the frontend using Flutter and backend using Django."
                 institution="Student Welfare Group,Technology Students Gymkhana, IIT Kharagpur"
               />
+              <Kcard
+                time="December 2023 - Present"
+                title="Intern at Frippi"
+                description="Frippi is a startup that aims to help people - Form, Nurture and Strengthen Friendships. One can find personalized plans and compatible companions, right in their neighborhood. As Frippi is an early-stage startup, I am getting to work on a variety of tasks, including Frontend development, Backend development , Content Management and Marketing ."
+                institution={<a href="https://frippi.in/">Frippi</a>}
+              />
             </div>
           </div>
         </div>
+    </MaxWidthWrapper>
       </section>
-    )
+  );
 }
