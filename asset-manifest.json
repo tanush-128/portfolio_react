@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.7d5e58c5.css",
-    "main.js": "/portfolio_react/static/js/main.b11444a8.js",
+    "main.css": "/portfolio_react/static/css/main.d5447b77.css",
+    "main.js": "/portfolio_react/static/js/main.2bc889f2.js",
+    "static/media/flipkart.png": "/portfolio_react/static/media/flipkart.c30cc1bef245f0f09f69.png",
     "static/media/frippi_showcase.png": "/portfolio_react/static/media/frippi_showcase.fe8b7b9bdba6e7191065.png",
     "static/media/weather_app.png": "/portfolio_react/static/media/weather_app.fb5e81a747df7f0b4f93.png",
     "static/media/person.png": "/portfolio_react/static/media/person.fa4e61e97c0ec402bd1c.png",
     "static/media/person-half-image.png": "/portfolio_react/static/media/person-half-image.fc963ec77036a07798b8.png",
     "static/media/flipkart_clone.png": "/portfolio_react/static/media/flipkart_clone.dc8d44fece0c9da5f21e.png",
     "static/media/Student Welfare Group App.png": "/portfolio_react/static/media/Student Welfare Group App.879ed0bad96581618939.png",
+    "static/media/chat.png": "/portfolio_react/static/media/chat.ca49cc9584b7e7eb585f.png",
     "static/media/spotify_clone.jpeg": "/portfolio_react/static/media/spotify_clone.bd9d78dbbac1ebde4d90.jpeg",
     "static/media/react-logo.png": "/portfolio_react/static/media/react-logo.fb6ab0285f3f79e0bba5.png",
     "static/media/html.png": "/portfolio_react/static/media/html.5e8ee55d9b13cd277f80.png",
-    "static/media/chat.png": "/portfolio_react/static/media/chat.2d777bdedef414717a28.png",
+    "static/media/rust.png": "/portfolio_react/static/media/rust.2ecce7c6995792525a12.png",
     "static/media/flutter-logo.png": "/portfolio_react/static/media/flutter-logo.294a953425109a8f1aad.png",
     "static/media/Django-Logo.png": "/portfolio_react/static/media/Django-Logo.c7f0305c2eb0cd5d70ef.png",
+    "static/media/prisma.png": "/portfolio_react/static/media/prisma.be2ccefb7f79573d6177.png",
     "static/media/signature.png": "/portfolio_react/static/media/signature.826fe1573d08607c8b06.png",
+    "static/media/Docker-Emblem.png": "/portfolio_react/static/media/Docker-Emblem.79cf087d18870fde38e9.png",
+    "static/media/socket-io.jpeg": "/portfolio_react/static/media/socket-io.ece3d63b9d7145e8ba0f.jpeg",
     "index.html": "/portfolio_react/index.html",
-    "main.7d5e58c5.css.map": "/portfolio_react/static/css/main.7d5e58c5.css.map",
-    "main.b11444a8.js.map": "/portfolio_react/static/js/main.b11444a8.js.map"
+    "main.d5447b77.css.map": "/portfolio_react/static/css/main.d5447b77.css.map",
+    "main.2bc889f2.js.map": "/portfolio_react/static/js/main.2bc889f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d5e58c5.css",
-    "static/js/main.b11444a8.js"
+    "static/css/main.d5447b77.css",
+    "static/js/main.2bc889f2.js"
   ]
 }
